@@ -1,0 +1,22 @@
+{
+  "name": "bet_widget",
+  "version": "1.0.0",
+  "description": "Animation widget for online betting apps",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/admir23/bet_widget.git"
+  },
+  "author": "Admir Kurtovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/admir23/bet_widget/issues"
+  },
+  "homepage": "https://github.com/admir23/bet_widget#readme",
+  "devDependencies": {
+    "node-sass": "^4.8.3"
+  }
+}
