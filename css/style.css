@@ -1,0 +1,68 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  padding: 25px; }
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%; }
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #fff; }
+
+.mainContainer {
+  width: 400px;
+  height: 750px;
+  background-color: #252525; }
+
+.matchInfoPlaceholder {
+  height: 15rem;
+  background-color: #111111;
+  padding: 30px;
+  font-size: 1.2rem; }
+  .matchInfoPlaceholder .homeMatchInfoPlaceholder {
+    display: flex;
+    flex-direction: row; }
+    .matchInfoPlaceholder .homeMatchInfoPlaceholder .matchInfoHomeTitleSeparator {
+      color: red;
+      border-left: 2px solid red; }
+    .matchInfoPlaceholder .homeMatchInfoPlaceholder .matchInfoHomeTitle {
+      padding-left: 0.8rem; }
+    .matchInfoPlaceholder .homeMatchInfoPlaceholder .matchInfoHomeScore {
+      margin-left: 9.9rem;
+      text-align: center;
+      height: 20px;
+      width: 20px;
+      background-color: #3e3d40; }
+  .matchInfoPlaceholder .awayMatchInfoPlaceholder {
+    display: flex;
+    flex-direction: row; }
+    .matchInfoPlaceholder .awayMatchInfoPlaceholder .matchInfoAwayTitleSeparator {
+      border-right: 2px solid blue; }
+    .matchInfoPlaceholder .awayMatchInfoPlaceholder .matchInfoAwayTitle {
+      padding-right: 1rem; }
+    .matchInfoPlaceholder .awayMatchInfoPlaceholder .matchInfoAwayScore {
+      margin-right: 10.2rem;
+      text-align: center;
+      height: 20px;
+      width: 20px;
+      background-color: #3e3d40; }
