@@ -74,8 +74,7 @@ body {
   .matchInfoPlaceholder .timelinePlaceholder {
     width: 347px;
     height: 40px;
-    margin-top: 5rem;
-    background-color: #000025; }
+    margin-top: 5rem; }
     .matchInfoPlaceholder .timelinePlaceholder .matchTimeline {
       position: relative; }
       .matchInfoPlaceholder .timelinePlaceholder .matchTimeline .timelineBar {
@@ -95,3 +94,5 @@ body {
         left: 42%;
         text-align: center;
         font-size: 1.3rem; }
+  .matchInfoPlaceholder .statsButtonPlaceholder .statsButton {
+    float: right; }
