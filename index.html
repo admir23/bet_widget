@@ -13,16 +13,16 @@
 
 <body>
   <div id="mainContainer" class="mainContainer">
-    <div id="matchInfoPlaceholder" class="row matchInfoPlaceholder">
-      <div id="homeMatchInfoPlaceholder" class="column homeMatchInfoPlaceholder">
-        <div id="matchInfoHomeTitleSeparator" class="matchInfoHomeTitleSeparator"></div>
-        <div id="matchInfoHomeTitle" class="matchInfoHomeTitle">ROMA</div>
-        <div id="matchInfoHomeScore" class="matchInfoHomeScore">1</div>
+    <div class="row matchInfoPlaceholder">
+      <div class="column homeMatchInfoPlaceholder">
+        <div class="matchInfoHomeTitleSeparator"></div>
+        <div class="matchInfoHomeTitle">ROMA</div>
+        <div class="matchInfoHomeScore">1</div>
       </div>
-      <div id="awayMatchInfoPlaceholder" class="column awayMatchInfoPlaceholder">
-        <div id="matchInfoAwayScore" class="matchInfoAwayScore">0</div>
-        <div id="matchInfoAwayTitle" class="matchInfoAwayTitle">INTER</div>
-        <div id="matchInfoAwayTitleSeparator" class="matchInfoAwayTitleSeparator"></div>
+      <div  class="column awayMatchInfoPlaceholder">
+        <div class="matchInfoAwayScore">0</div>
+        <div class="matchInfoAwayTitle">INTER</div>
+        <div class="matchInfoAwayTitleSeparator"></div>
       </div>
       <div class="timelinePlaceholder">
         <div class="matchTimeline">
@@ -34,12 +34,22 @@
       </div>
       <div class="statsButtonPlaceholder">
         <div class="statsButton">
-            <a href="#"><i class="fas fa-align-left"></i></a>
+            <a class="btn" href="#"><i class="fas fa-align-left"></i></a>
         </div>
       </div>
     </div>
-    <div class="mainFieldContainer"></div>
-    <div class="matchInfoContainer"></div>
+    <div class="mainFieldContainer">
+      <div class="backgroundMainField">
+      </div>
+    </div>
+      <div class="card">
+        <div class="donut-chart chart1">
+          <div class="slice one"></div>
+          <div class="slice two"></div>
+          <div class="chart-center"></div>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 <!-- <section class="grid-test">

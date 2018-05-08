@@ -18,5 +18,8 @@
   "homepage": "https://github.com/admir23/bet_widget#readme",
   "devDependencies": {
     "node-sass": "^4.9.0"
+  },
+  "dependencies": {
+    "hapi": "^17.4.0"
   }
 }
