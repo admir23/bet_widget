@@ -1,0 +1,38 @@
+.matchStatsPlaceholder {
+
+  .matchStats {
+    width: 100%;
+    padding: 0.5rem  40px;
+    
+    // DonughtCharts
+    @include donut-chart('.chart1', 30, 45px, 7px, #ed1c24, #252525, #e1e1e1);
+    @include donut-chart('.chart2', 60, 45px, 7px, #ed1c24, #252525, #e1e1e1);
+    @include donut-chart('.chart3', 50, 45px, 7px, #ed1c24, #252525, #e1e1e1);
+
+    .statsWheelTextPlaceholder {
+      font-size: 1.2rem;
+      padding: 0.5rem 0;
+
+      &:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      .statsWheelText__Home {
+        float: left;
+        width: 30%;
+      }
+      .statsWheelText__Seperator{
+        float: left;
+        width: 30%;
+      }
+      .statsWheelText__Away{
+        float: left;
+        width: 30%;
+      }
+    
+    }
+  }
+}
+

@@ -43,14 +43,20 @@ body {
 .card {
   float: left;
   background: #252525;
-  padding: 20px;
-  margin: 0 20px 0 0; }
+  padding: 10px;
+  margin: 30px 15px 0 15px; }
 
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   line-height: 1.7;
   color: #fff; }
+
+h3 {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  text-align: center; }
 
 .btn {
   color: white; }
@@ -61,14 +67,6 @@ body {
   width: 400px;
   height: 750px;
   background-color: #252525; }
-
-.mainFieldContainer {
-  width: 100%;
-  padding: 0.5rem  30px; }
-  .mainFieldContainer .backgroundMainField {
-    background-image: url("/img/field.png");
-    background-size: cover;
-    height: 230px; }
 
 .matchInfoPlaceholder {
   height: 15rem;
@@ -129,34 +127,113 @@ body {
         left: 42%;
         text-align: center;
         font-size: 1.3rem; }
-  .matchInfoPlaceholder .statsButtonPlaceholder .statsButton {
+  .matchInfoPlaceholder .statisticsButtonPlaceholder .statisticsButton {
     float: right; }
-    .matchInfoPlaceholder .statsButtonPlaceholder .statsButton .fas {
+    .matchInfoPlaceholder .statisticsButtonPlaceholder .statisticsButton .fas {
       text-decoration: none; }
 
-.donut-chart.chart1 {
-  width: 70px;
-  height: 70px;
-  background: #e1e1e1; }
-  .donut-chart.chart1 .slice.one {
-    clip: rect(0 70px 35px 0);
-    -webkit-transform: rotate(198deg);
-    transform: rotate(198deg);
+.mainFieldPlaceholder {
+  width: 100%;
+  padding: 0.5rem  30px; }
+  .mainFieldPlaceholder .mainFieldBackground {
+    background-image: url("/img/field.png");
+    background-size: cover;
+    height: 230px; }
+
+.matchStatsPlaceholder .matchStats {
+  width: 100%;
+  padding: 0.5rem  40px; }
+  .matchStatsPlaceholder .matchStats .donut-chart.chart1 {
+    width: 45px;
+    height: 45px;
+    background: #e1e1e1; }
+    .matchStatsPlaceholder .matchStats .donut-chart.chart1 .slice.one {
+      clip: rect(0 45px 22.5px 0);
+      -webkit-transform: rotate(198deg);
+      transform: rotate(198deg);
+      background: #ed1c24; }
+    .matchStatsPlaceholder .matchStats .donut-chart.chart1 .slice.two {
+      clip: rect(0 22.5px 45px 0);
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+      background: #ed1c24; }
+    .matchStatsPlaceholder .matchStats .donut-chart.chart1 .chart-center {
+      top: 7px;
+      left: 7px;
+      width: 31px;
+      height: 31px;
+      background: #252525; }
+      .matchStatsPlaceholder .matchStats .donut-chart.chart1 .chart-center span {
+        font-size: 40px;
+        line-height: 31px;
+        color: #e1e1e1; }
+        .matchStatsPlaceholder .matchStats .donut-chart.chart1 .chart-center span:after {
+          content: "30%"; }
+  .matchStatsPlaceholder .matchStats .donut-chart.chart2 {
+    width: 45px;
+    height: 45px;
     background: #ed1c24; }
-  .donut-chart.chart1 .slice.two {
-    clip: rect(0 35px 70px 0);
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
+    .matchStatsPlaceholder .matchStats .donut-chart.chart2 .slice.one {
+      clip: rect(0 45px 22.5px 0);
+      -webkit-transform: rotate(90deg);
+      transform: rotate(90deg);
+      background: #e1e1e1; }
+    .matchStatsPlaceholder .matchStats .donut-chart.chart2 .slice.two {
+      clip: rect(0 22.5px 45px 0);
+      -webkit-transform: rotate(216deg);
+      transform: rotate(216deg);
+      background: #e1e1e1; }
+    .matchStatsPlaceholder .matchStats .donut-chart.chart2 .chart-center {
+      top: 7px;
+      left: 7px;
+      width: 31px;
+      height: 31px;
+      background: #252525; }
+      .matchStatsPlaceholder .matchStats .donut-chart.chart2 .chart-center span {
+        font-size: 40px;
+        line-height: 31px;
+        color: #e1e1e1; }
+        .matchStatsPlaceholder .matchStats .donut-chart.chart2 .chart-center span:after {
+          content: "60%"; }
+  .matchStatsPlaceholder .matchStats .donut-chart.chart3 {
+    width: 45px;
+    height: 45px;
     background: #ed1c24; }
-  .donut-chart.chart1 .chart-center {
-    top: 10px;
-    left: 10px;
-    width: 50px;
-    height: 50px;
-    background: #252525; }
-    .donut-chart.chart1 .chart-center span {
-      font-size: 40px;
-      line-height: 50px;
-      color: #e1e1e1; }
-      .donut-chart.chart1 .chart-center span:after {
-        content: "30%"; }
+    .matchStatsPlaceholder .matchStats .donut-chart.chart3 .slice.one {
+      clip: rect(0 45px 22.5px 0);
+      -webkit-transform: rotate(90deg);
+      transform: rotate(90deg);
+      background: #e1e1e1; }
+    .matchStatsPlaceholder .matchStats .donut-chart.chart3 .slice.two {
+      clip: rect(0 22.5px 45px 0);
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg);
+      background: #e1e1e1; }
+    .matchStatsPlaceholder .matchStats .donut-chart.chart3 .chart-center {
+      top: 7px;
+      left: 7px;
+      width: 31px;
+      height: 31px;
+      background: #252525; }
+      .matchStatsPlaceholder .matchStats .donut-chart.chart3 .chart-center span {
+        font-size: 40px;
+        line-height: 31px;
+        color: #e1e1e1; }
+        .matchStatsPlaceholder .matchStats .donut-chart.chart3 .chart-center span:after {
+          content: "50%"; }
+  .matchStatsPlaceholder .matchStats .statsWheelTextPlaceholder {
+    font-size: 1.2rem;
+    padding: 0.5rem 0; }
+    .matchStatsPlaceholder .matchStats .statsWheelTextPlaceholder:after {
+      content: "";
+      display: table;
+      clear: both; }
+    .matchStatsPlaceholder .matchStats .statsWheelTextPlaceholder .statsWheelText__Home {
+      float: left;
+      width: 30%; }
+    .matchStatsPlaceholder .matchStats .statsWheelTextPlaceholder .statsWheelText__Seperator {
+      float: left;
+      width: 30%; }
+    .matchStatsPlaceholder .matchStats .statsWheelTextPlaceholder .statsWheelText__Away {
+      float: left;
+      width: 30%; }
