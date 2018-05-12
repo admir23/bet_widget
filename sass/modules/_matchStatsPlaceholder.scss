@@ -2,37 +2,131 @@
 
   .matchStats {
     width: 100%;
-    padding: 0.5rem  40px;
-    
-    // DonughtCharts
-    @include donut-chart('.chart1', 30, 45px, 7px, #ed1c24, #252525, #e1e1e1);
-    @include donut-chart('.chart2', 60, 45px, 7px, #ed1c24, #252525, #e1e1e1);
-    @include donut-chart('.chart3', 50, 45px, 7px, #ed1c24, #252525, #e1e1e1);
+    padding: 5rem  40px;
+    position: relative;
 
-    .statsWheelTextPlaceholder {
-      font-size: 1.2rem;
-      padding: 0.5rem 0;
-
-      &:after {
-        content: "";
+    .matchStatsTitles {
         display: table;
-        clear: both;
-      }
-      
-      .statsWheelText__Home {
-        float: left;
-        width: 30%;
-      }
-      .statsWheelText__Seperator{
-        float: left;
-        width: 30%;
-      }
-      .statsWheelText__Away{
-        float: left;
-        width: 30%;
-      }
+        table-layout: fixed;
+        width: 100%;
+        text-align: center;
+        text-transform: capitalize;
+
+        .matchStatsTitle {
+          transition-property: font-size,line-height;
+          display: table-cell;
+          vertical-align: middle;
+          font-size: 11px;
+          line-height: 13px;
+          padding-bottom: 10px;
+
+          &__left {
+            transition-property: padding-right;
+            padding-right: 25px;
+          }
+         
+          &__right{
+            transition-property: padding-right;
+            padding-left: 25px;
+          }
+        }
+        
+    }
+  
+    .matchStatsCharts {
+      transition-property: margin-bottom;
+      display: table;
+      table-layout: fixed;
+      width: 100%;
+      margin-top: 3px;
+      margin-bottom: 17px;
+
+      .matchStatsCharts-Column {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+
+        &__left {
+          transition-property: padding-right;
+          padding-right: 25px;
+        }
+
+        &__right{
+          transition-property: padding-right;
+          padding-left: 25px;
+        }
+
+        // DonughtCharts
+        @include donutChart('.chart1', 30, 45px, 7px, #ed1c24, #252525, #e1e1e1);
+        @include donutChart('.chart2', 60, 45px, 7px, #ed1c24, #252525, #e1e1e1);
+        @include donutChart('.chart3', 50, 45px, 7px, #ed1c24, #252525, #e1e1e1);
     
+        
+        .statsWheelText {
+          display: table;
+          table-layout: fixed; 
+          margin: 0 auto 3rem auto;
+          padding-top: 1.5rem; 
+            
+            &__home {
+              display: table-cell;
+            }
+  
+            &__seperator{
+              display: table-cell;
+            }
+  
+            &__away{
+              display: table-cell;
+            
+          }
+        }
+      }
+    }
+
+    .matchStatsBars{
+      display: table;
+      table-layout: fixed;
+      width: 100%;
+      margin-bottom: 13px;
+
+      .matchStatsBarsColumn {
+        display: table-cell;
+        vertical-align: top;
+        text-align: center;
+      }
+
+      .footballStatsBar {
+       
+        &__MiniBarSurround {
+          transition-property: width;
+          position: relative;
+          display: inline-block;
+          vertical-align: top;
+          width: 120px;
+          margin: 5px;
+          height: 6px;
+          background-color: #ed1c24;
+         
+        }
+        
+        &__MiniBarFill {
+          width: 35.2941%;
+          background-color: rgb(247, 247, 247);
+          position: absolute;
+          display: block;
+          width: 50%;
+          height: 6px;
+          z-index: 20;
+        }
+      }
     }
   }
 }
+          
+
+          
+
+
+
 

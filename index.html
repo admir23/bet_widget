@@ -19,7 +19,7 @@
         <div class="matchInfoHomeTitle">ROMA</div>
         <div class="matchInfoHomeScore">1</div>
       </div>
-      <div  class="awayMatchInfoPlaceholder column">
+      <div class="awayMatchInfoPlaceholder column">
         <div class="matchInfoAwayScore">0</div>
         <div class="matchInfoAwayTitle">INTER</div>
         <div class="matchInfoAwayTitleSeparator"></div>
@@ -34,7 +34,9 @@
       </div>
       <div class="statisticsButtonPlaceholder">
         <div class="statisticsButton">
-          <a class="btn" href="#"><i class="fas fa-align-left"></i></a>
+          <a class="btn" href="#">
+            <i class="fas fa-align-left"></i>
+          </a>
         </div>
       </div>
     </div>
@@ -43,58 +45,77 @@
     </div>
     <div class="matchStatsPlaceholder">
       <div class="matchStats">
-        <div class="matchStatsCharts__columnLeft">
-          <div class="card">
-            <h3>Attacks</h3>
-            <div class="donut-chart chart1">
+        <div class="matchStatsTitles">
+          <div class="matchStatsTitle matchStatsTitle__left">attacks</div>
+          <div class="matchStatsTitle matchStatsTitle__middle">dangerous attacks</div>
+          <div class="matchStatsTitle matchStatsTitle__right">possesion %</div>
+        </div>
+        <div class="matchStatsCharts">
+          <div class="matchStatsCharts-Column matchStatsCharts-Column__left">
+            <div class="donutChart chart1">
               <div class="slice one"></div>
               <div class="slice two"></div>
-              <div class="chart-center"></div>
+              <div class="chartCenter"></div>
             </div>
-            <div class="statsWheelTextPlaceholder">
-              <div class="statsWheelText__Home">70</div>
-              <div class="statsWheelText__Seperator">&nbsp;|&nbsp;</div>
-              <div class="statsWheelText__Away">30</div>
+            <div class="statsWheelText">
+              <div class="statsWheelText__home">16</div>
+              <div class="statsWheelText__seperator">&nbsp;|&nbsp;</div>
+              <div class="statsWheelText__away">10</div>
+            </div>
+          </div>
+          <div class="matchStatsCharts-Column matchStatsCharts-Column__middle">
+            <div class="donutChart chart2">
+              <div class="slice one"></div>
+              <div class="slice two"></div>
+              <div class="chartCenter"></div>
+            </div>
+            <div class="statsWheelText">
+              <div class="statsWheelText__home">11</div>
+              <div class="statsWheelText__seperator">&nbsp;|&nbsp;</div>
+              <div class="statsWheelText__away">8</div>
+            </div>
+          </div>
+          <div class="matchStatsCharts-Column matchStatsCharts-Column__right">
+            <div class="donutChart chart3">
+              <div class="slice one"></div>
+              <div class="slice two"></div>
+              <div class="chartCenter"></div>
+            </div>
+            <div class="statsWheelText">
+              <div class="statsWheelText__home">50</div>
+              <div class="statsWheelText__seperator">&nbsp;|&nbsp;</div>
+              <div class="statsWheelText__away">50</div>
             </div>
           </div>
         </div>
-        <div class="matchStatsCharts__columnMiddle">
-          <div class="card">
-            <h3>dangerous attacks</h3>
-            <div class="donut-chart chart2">
-              <div class="slice one"></div>
-              <div class="slice two"></div>
-              <div class="chart-center"></div>
-            </div>
-            <div class="statsWheelTextPlaceholder">
-              <div class="statsWheelText__Home">70</div>
-              <div class="statsWheelText__Seperator">&nbsp;|&nbsp;</div>
-              <div class="statsWheelText__Away">30</div>
+        <div class="matchStatsTitles">
+          <div class="matchStatsTitle">on target</div>
+          <div class="matchStatsTitle">off target</div>
+        </div>
+        <div class="matchStatsBars">
+          <div class="matchStatsBarsColumn matchStatsBarsColumn__left">
+            <div class="footballStatsBar">
+              <div class="footballStatsBar__MiniBarSurround">
+                <span class="footballStatsBar__MiniBarFill"></span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="matchStatsCharts__columnRight">
-          <div class="card">
-            <h3>Attacks</h3>
-            <div class="donut-chart chart3">
-              <div class="slice one"></div>
-              <div class="slice two"></div>
-              <div class="chart-center"></div>
-            </div>
-            <div class="statsWheelTextPlaceholder">
-              <div class="statsWheelText__Home">70</div>
-              <div class="statsWheelText__Seperator">&nbsp;|&nbsp;</div>
-              <div class="statsWheelText__Away">30</div>
+          <div class="matchStatsBarsColumn matchStatsBarsColumn__left">
+            <div class="footballStatsBar">
+              <div class="footballStatsBar__MiniBarSurround">
+                <span style="width: 20%"; class="footballStatsBar__MiniBarFill"></span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="matchStatsLine">
-          
         </div>
       </div>
     </div>
   </div>
 </body>
+
+
+
+
 <!-- <section class="grid-test">
       <div class="row">
         <div class="col-1-of-2">
@@ -159,4 +180,5 @@
     </section> -->
 
 </html>
+
           
