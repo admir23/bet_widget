@@ -1,0 +1,22 @@
+.statsButtonPlaceholder {
+   width:100%; 
+   padding: 0 30px;
+   font-size: 1.2rem;
+   display: table;
+   position: relative;
+
+  .statsButton {
+    display: table-row;
+    text-align: right;
+  
+    .fas {
+      text-decoration: none;
+    }
+  }
+
+  .statsData {
+    display: table-row;
+    position: absolute;
+    background-color: $color-grey;
+  }
+}
