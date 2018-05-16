@@ -302,3 +302,13 @@ h3 {
       width: 50%;
       height: 6px;
       z-index: 20; }
+  .matchStatsPlaceholder .matchStats .statsBarText {
+    display: table;
+    width: 160px;
+    padding: 0 20px; }
+    .matchStatsPlaceholder .matchStats .statsBarText__home {
+      display: table-cell;
+      text-align: left; }
+    .matchStatsPlaceholder .matchStats .statsBarText__away {
+      display: table-cell;
+      text-align: right; }

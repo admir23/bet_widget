@@ -121,6 +121,22 @@
         }
       }
     }
+
+    .statsBarText {
+      display: table;
+      width: 160px;
+      padding: 0 20px;
+
+      &__home {
+        display: table-cell;
+        text-align: left;
+      }
+      
+      &__away {
+        display: table-cell;
+        text-align: right;
+      }
+    }
   }
 }
           
