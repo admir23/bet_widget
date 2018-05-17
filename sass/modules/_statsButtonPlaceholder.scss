@@ -1,5 +1,5 @@
 .statsButtonPlaceholder {
-   width:100%; 
+   width: 100%; 
    padding: 0 30px;
    font-size: 1.2rem;
    display: table;
@@ -18,5 +18,49 @@
     display: table-row;
     position: absolute;
     background-color: $color-grey;
+
+    .statsContainer {
+
+      .statsRow {
+        display: table;
+        width: 340px;
+        padding: 20px 10px 10px 10px;
+
+        &__homeValue {
+          display: table-cell;
+          text-align: left;
+        }
+
+        &__title {
+          display: table-cell;
+          text-align: center;
+          text-transform: uppercase;
+        }
+
+        &__awayValue {
+          display: table-cell;
+          text-align: right;
+        }
+      }
+
+      .statsBar {
+        display: inline-block;
+        width: 100%;
+        height: 0.8rem;
+
+        &__homeValue {
+          width: 100%;
+          height: 0.7rem;
+          background-color: $color-white;
+        }
+
+        &__awayValue {
+          width: 100%;
+          height: 0.7rem;
+          background-color: $color-red;
+        }
+      }
+    }
+
   }
 }

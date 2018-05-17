@@ -324,3 +324,29 @@ h3 {
     display: table-row;
     position: absolute;
     background-color: #3e3d40; }
+    .statsButtonPlaceholder .statsPlaceholder .statsContainer .statsRow {
+      display: table;
+      width: 340px;
+      padding: 20px 10px 10px 10px; }
+      .statsButtonPlaceholder .statsPlaceholder .statsContainer .statsRow__homeValue {
+        display: table-cell;
+        text-align: left; }
+      .statsButtonPlaceholder .statsPlaceholder .statsContainer .statsRow__title {
+        display: table-cell;
+        text-align: center;
+        text-transform: uppercase; }
+      .statsButtonPlaceholder .statsPlaceholder .statsContainer .statsRow__awayValue {
+        display: table-cell;
+        text-align: right; }
+    .statsButtonPlaceholder .statsPlaceholder .statsContainer .statsBar {
+      display: inline-block;
+      width: 100%;
+      height: 0.8rem; }
+      .statsButtonPlaceholder .statsPlaceholder .statsContainer .statsBar__homeValue {
+        width: 100%;
+        height: 0.7rem;
+        background-color: #fff; }
+      .statsButtonPlaceholder .statsPlaceholder .statsContainer .statsBar__awayValue {
+        width: 100%;
+        height: 0.7rem;
+        background-color: #ed1c24; }
