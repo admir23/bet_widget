@@ -1,6 +1,6 @@
 $(document).ready(function (){
-  $(".statsData").hide();
+  $(".statsPlaceholder").hide();
   $(".btn").click(function () {
-    $(".statsData").slideToggle(); 
+    $(".statsPlaceholder").slideToggle(); 
   });
 });

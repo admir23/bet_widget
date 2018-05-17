@@ -320,7 +320,7 @@ h3 {
     text-align: right; }
     .statsButtonPlaceholder .statsButton .fas {
       text-decoration: none; }
-  .statsButtonPlaceholder .statsData {
+  .statsButtonPlaceholder .statsPlaceholder {
     display: table-row;
     position: absolute;
     background-color: #3e3d40; }
