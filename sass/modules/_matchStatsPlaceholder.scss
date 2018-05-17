@@ -1,5 +1,5 @@
 .matchStatsPlaceholder {
-
+  z-index: 1;
   .matchStats {
     width: 100%;
     padding: 5rem  40px;
@@ -97,7 +97,7 @@
       }
 
       .footballStatsBar {
-       
+
         &__MiniBarSurround {
           transition-property: width;
           position: relative;
@@ -117,7 +117,6 @@
           display: block;
           width: 50%;
           height: 6px;
-          z-index: 20;
         }
       }
     }
