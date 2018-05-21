@@ -65,6 +65,9 @@ h3 {
 .u-margin_left-medium {
   margin: 0 0 0 3.3rem; }
 
+.u-margin_bottom-small {
+  margin-bottom: 10px; }
+
 .btn {
   color: white; }
   .btn:hover {
@@ -318,22 +321,22 @@ h3 {
   display: table;
   position: relative; }
   .statsButtonPlaceholder .statsButton {
-    display: table-row;
     text-align: right; }
     .statsButtonPlaceholder .statsButton .fas {
-      text-decoration: none; }
+      text-decoration: none;
+      padding: 5px; }
   .statsButtonPlaceholder .statsPlaceholder {
-    display: table-row;
     position: absolute;
     background-color: #3e3d40;
     overflow: scroll;
     overflow-x: hidden;
     height: 550px;
+    width: 340px;
     font-size: 1.2rem; }
     .statsButtonPlaceholder .statsPlaceholder .statsContainer .statsRow {
       display: table;
       width: 340px;
-      padding: 20px 15px 10px 15px; }
+      padding: 20px 15px 0 15px; }
       .statsButtonPlaceholder .statsPlaceholder .statsContainer .statsRow__homeValue {
         display: table-cell;
         text-align: left; }
