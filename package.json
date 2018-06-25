@@ -20,6 +20,6 @@
     "node-sass": "^4.9.0"
   },
   "dependencies": {
-    "hapi": "^17.5.0"
+    "hapi": "^17.5.2"
   }
 }
