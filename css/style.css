@@ -128,6 +128,18 @@ h3 {
           width: 25%;
           height: 0.7rem;
           background-color: #1a7b2e; }
+      .matchInfoPlaceholder .timelinePlaceholder .matchTimeline .extraTimePlaceholder {
+        width: 50px;
+        background-color: #3e3d40;
+        height: 25px;
+        position: absolute;
+        left: 42%;
+        top: 17px; }
+        .matchInfoPlaceholder .timelinePlaceholder .matchTimeline .extraTimePlaceholder .extraTime {
+          font-size: 1.2rem;
+          text-align: center;
+          color: green;
+          padding-top: 2px; }
       .matchInfoPlaceholder .timelinePlaceholder .matchTimeline .timelineBox {
         width: 5rem;
         height: 2.3rem;

@@ -74,7 +74,23 @@
         }
       
       }
-        
+    
+      .extraTimePlaceholder {
+          width: 50px;
+          background-color: #3e3d40;
+          height: 25px;
+          position: absolute;
+          left: 42%;
+          top: 17px;
+
+        .extraTime {
+          font-size: 1.2rem;
+          text-align: center;
+          color: green;
+          padding-top: 2px;
+        }  
+      }
+  
       .timelineBox {
         width: 5rem;
         height: 2.3rem;
